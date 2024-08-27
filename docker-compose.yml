@@ -1,7 +1,8 @@
 version: '3'
 services:
   web:
-    image: my_flask_app
+    build: .
     ports:
-      - "5001:5000"
-
+      - "5000:5000"
+  redis:
+    image: "redis:alpine"
