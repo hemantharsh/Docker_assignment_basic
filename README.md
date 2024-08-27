@@ -129,7 +129,7 @@ Choose a simple web application for demonstration. Here is a Python Flask exampl
    ```
    docker run -p 5000:5001 my-flask-app
    ```
-   - This command maps port 5001 on the host to port 5001 in the container.
+   - This command maps port 5000 on the host to port 5001 in the container.
 
 ### **6. Use Docker Commands to Manage Containers**
 
